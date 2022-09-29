@@ -67,3 +67,6 @@ function clearMarkup(){
 }
 
 inputEL.addEventListener('input', debounce(onSearchCountry, DEBOUNCE_DELAY));
+
+
+// commit?
