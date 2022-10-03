@@ -43,9 +43,11 @@ const makeMaxMarkup = item => `<li>
   </li>`;
 
   function generateMarkup(array) {
-    if(array.length > 10) {
-        Notify.warning(
-          "Too many matches found. Please enter a more specific name.")
+    if (array.length > 10) {
+      Notify.warning(
+        "Too many matches found. Please enter a more specific name.")
+      listEl = '';
+      
     } 
 
     else if(array.length > 1 && array.length <= 10){            
